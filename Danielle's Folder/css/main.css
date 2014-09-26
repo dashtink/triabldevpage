@@ -1,0 +1,124 @@
+/*** GENERAL ***/
+
+body {
+	background-color: #efece2;
+	padding-top: 50px;
+}
+
+hr {
+  border: 1px solid #3c5a90;
+}
+
+
+/*** NAVBAR ***/
+
+.navbar {
+  background-color: #efece2;
+}
+
+.navbar ul {
+  list-style: none;
+  font-size: 1.25em;
+}
+
+.navbar ul li {
+  margin-top: 20px;
+}
+
+
+header a {
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+/*** MAIN BANNER ***/
+
+.mainBanner {
+
+    background: #efece2 url("../img/mountains.jpg") no-repeat right top;
+    background-size: 100%;
+  
+  text-align: center;
+  height: 500px;
+}
+
+.mainContent {
+     position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.whoWeAre {
+  background: #efece2 url("../img/mancity.jpg") no-repeat right top;
+  background-size: 100%; 
+  height: 300px;
+}
+
+.whatWeDo {
+  background: #efece2 url("../img/workspace3.jpg") no-repeat right top;
+  background-size: 100%; 
+  height: 300px;
+}
+
+.howWeHelp {
+  background: #efece2 url("../img/sunsetgirl.jpg") no-repeat right top;
+  background-size: 100%; 
+  height: 300px;
+}
+
+/*** SERVICES ***/
+.servicesImg {
+  width: 150px;
+  height: 150px;
+ margin: auto;
+}
+
+img.servicesImg {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolioContent {
+  text-align: center;
+  height: 300px;
+}
+
+.servicesContent p {
+  padding-left: 50px;
+}
+
+.servicesContent h1, h2 {
+  text-align: center;
+}
+
+.servicesDiv {
+  margin-top: 50px;
+  margin-bottom: 50px ;
+}
+
+/*** FOOTER ***/
+
+footer h2 {
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  float: right;
+}
+
+footer ul li {
+  float: left;
+  margin-right: 25px;
+ text-align: right;
+
+  }
+
+}
